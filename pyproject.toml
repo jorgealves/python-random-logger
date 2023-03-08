@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-random-logger"
+version = "0.1.0"
+description = "creates random log file and/or sends into stdout"
+authors = ["Jorge Alves <jorgeandrealves@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.3"
+minio = "^7.1.13"
+loguru = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
